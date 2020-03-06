@@ -1,0 +1,1378 @@
+[
+    {
+      "package": {
+        "name": "npm",
+        "scope": "unscoped",
+        "version": "6.14.2",
+        "description": "a package manager for JavaScript",
+        "keywords": [
+          "install",
+          "modules",
+          "package manager",
+          "package.json"
+        ],
+        "date": "2020-03-03T18:36:00.033Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm",
+          "homepage": "https://docs.npmjs.com/",
+          "repository": "https://github.com/npm/cli",
+          "bugs": "https://npm.community/c/bugs"
+        },
+        "author": {
+          "name": "Isaac Z. Schlueter",
+          "email": "i@izs.me",
+          "url": "http://blog.izs.me",
+          "username": "isaacs"
+        },
+        "publisher": {
+          "username": "darcyclarke",
+          "email": "darcy@darcyclarke.me"
+        },
+        "maintainers": [
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.8121589046012336,
+        "detail": {
+          "quality": 0.7984413850323059,
+          "popularity": 0.6457908577285665,
+          "maintenance": 0.9902848253901249
+        }
+      },
+      "searchScore": 1014.78864,
+      "highlight": "<em>npm</em>"
+    },
+    {
+      "package": {
+        "name": "Npm",
+        "scope": "unscoped",
+        "version": "3.0.0",
+        "description": "This package is no longer supported and has been deprecated. To avoid malicious use, npm is hanging on to the package name.",
+        "date": "2016-12-03T01:17:20.831Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/Npm",
+          "homepage": "https://github.com/npm/deprecate-holder#readme",
+          "repository": "https://github.com/npm/deprecate-holder",
+          "bugs": "https://github.com/npm/deprecate-holder/issues"
+        },
+        "publisher": {
+          "username": "kmanion",
+          "email": "kiera@npmjs.com"
+        },
+        "maintainers": [
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          }
+        ]
+      },
+      "flags": {
+        "deprecated": "Package abandoned, contact support@npmjs.com for more info."
+      },
+      "score": {
+        "final": 0.08998891616138398,
+        "detail": {
+          "quality": 0,
+          "popularity": 0.004032471328333076,
+          "maintenance": 0.2530787177041926
+        }
+      },
+      "searchScore": 1001.6386,
+      "highlight": "<em>Npm</em>"
+    },
+    {
+      "package": {
+        "name": "npm-run-path",
+        "scope": "unscoped",
+        "version": "4.0.1",
+        "description": "Get your PATH prepended with locally installed binaries",
+        "keywords": [
+          "npm",
+          "run",
+          "path",
+          "package",
+          "bin",
+          "binary",
+          "binaries",
+          "script",
+          "cli",
+          "command-line",
+          "execute",
+          "executable"
+        ],
+        "date": "2019-12-22T22:04:32.828Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-run-path",
+          "homepage": "https://github.com/sindresorhus/npm-run-path#readme",
+          "repository": "https://github.com/sindresorhus/npm-run-path",
+          "bugs": "https://github.com/sindresorhus/npm-run-path/issues"
+        },
+        "author": {
+          "name": "Sindre Sorhus",
+          "email": "sindresorhus@gmail.com",
+          "url": "sindresorhus.com",
+          "username": "sindresorhus"
+        },
+        "publisher": {
+          "username": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "sindresorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.8300621849836138,
+        "detail": {
+          "quality": 0.9547047291947316,
+          "popularity": 0.5533982541098033,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 13.603925,
+      "highlight": "<em>npm</em>-run-path"
+    },
+    {
+      "package": {
+        "name": "npm-package-arg",
+        "scope": "unscoped",
+        "version": "8.0.0",
+        "description": "Parse the things that can be arguments to `npm install`",
+        "date": "2019-12-15T05:00:33.764Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-package-arg",
+          "homepage": "https://github.com/npm/npm-package-arg",
+          "repository": "https://github.com/npm/npm-package-arg",
+          "bugs": "https://github.com/npm/npm-package-arg/issues"
+        },
+        "author": {
+          "name": "Isaac Z. Schlueter",
+          "email": "i@izs.me",
+          "url": "http://blog.izs.me/",
+          "username": "isaacs"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.8215009263715283,
+        "detail": {
+          "quality": 0.9850823684540849,
+          "popularity": 0.5029029703039356,
+          "maintenance": 0.9998862177969294
+        }
+      },
+      "searchScore": 13.349826,
+      "highlight": "<em>npm</em>-package-arg"
+    },
+    {
+      "package": {
+        "name": "npm-bundled",
+        "scope": "unscoped",
+        "version": "1.1.1",
+        "description": "list things in node_modules that are bundledDependencies, or transitive dependencies thereof",
+        "date": "2019-12-10T00:01:33.467Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-bundled",
+          "homepage": "https://github.com/npm/npm-bundled#readme",
+          "repository": "https://github.com/npm/npm-bundled",
+          "bugs": "https://github.com/npm/npm-bundled/issues"
+        },
+        "author": {
+          "name": "Isaac Z. Schlueter",
+          "email": "i@izs.me",
+          "url": "http://blog.izs.me/",
+          "username": "isaacs"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "zkat",
+            "email": "kat@sykosomatic.org"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7827625870851456,
+        "detail": {
+          "quality": 0.9020173988749663,
+          "popularity": 0.4634171146739787,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 13.275698,
+      "highlight": "<em>npm</em>-bundled"
+    },
+    {
+      "package": {
+        "name": "npm-conf",
+        "scope": "unscoped",
+        "version": "1.1.3",
+        "description": "Get the npm config",
+        "keywords": [
+          "conf",
+          "config",
+          "global",
+          "npm",
+          "path",
+          "prefix",
+          "rc"
+        ],
+        "date": "2017-10-31T08:45:04.386Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-conf",
+          "homepage": "https://github.com/kevva/npm-conf#readme",
+          "repository": "https://github.com/kevva/npm-conf",
+          "bugs": "https://github.com/kevva/npm-conf/issues"
+        },
+        "author": {
+          "name": "Kevin Martensson",
+          "email": "kevinmartensson@gmail.com",
+          "url": "github.com/kevva",
+          "username": "kevva"
+        },
+        "publisher": {
+          "username": "kevva",
+          "email": "kevinmartensson@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "kevva",
+            "email": "kevinmartensson@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7668185040112805,
+        "detail": {
+          "quality": 0.9452092495157112,
+          "popularity": 0.38087374703241234,
+          "maintenance": 0.9998569077006368
+        }
+      },
+      "searchScore": 13.134043,
+      "highlight": "<em>npm</em>-conf"
+    },
+    {
+      "package": {
+        "name": "npm-packlist",
+        "scope": "unscoped",
+        "version": "2.1.0",
+        "description": "Get a list of the files to add from a folder into an npm package",
+        "date": "2020-02-10T23:48:07.971Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-packlist",
+          "homepage": "https://github.com/npm/npm-packlist#readme",
+          "repository": "https://github.com/npm/npm-packlist",
+          "bugs": "https://github.com/npm/npm-packlist/issues"
+        },
+        "author": {
+          "name": "Isaac Z. Schlueter",
+          "email": "i@izs.me",
+          "url": "http://blog.izs.me/",
+          "username": "isaacs"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7719218081152317,
+        "detail": {
+          "quality": 0.8169350304208813,
+          "popularity": 0.5053231874319519,
+          "maintenance": 0.9999376668222404
+        }
+      },
+      "searchScore": 13.053988,
+      "highlight": "<em>npm</em>-packlist"
+    },
+    {
+      "package": {
+        "name": "npm-lifecycle",
+        "scope": "unscoped",
+        "version": "3.1.4",
+        "description": "JavaScript package lifecycle hook runner",
+        "keywords": [
+          "npm",
+          "lifecycle",
+          "hook",
+          "runner"
+        ],
+        "date": "2019-09-18T17:09:06.801Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-lifecycle",
+          "homepage": "https://github.com/npm/lifecycle#readme",
+          "repository": "https://github.com/npm/lifecycle",
+          "bugs": "https://github.com/npm/lifecycle/issues"
+        },
+        "author": {
+          "name": "Mike Sherov"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7623058361022466,
+        "detail": {
+          "quality": 0.9327127601261315,
+          "popularity": 0.37865894507898273,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 12.856242,
+      "highlight": "<em>npm</em>-lifecycle"
+    },
+    {
+      "package": {
+        "name": "npm-registry-fetch",
+        "scope": "unscoped",
+        "version": "8.0.0",
+        "description": "Fetch-based http client for use with npm registry APIs",
+        "keywords": [
+          "npm",
+          "registry",
+          "fetch"
+        ],
+        "date": "2020-02-24T21:23:05.530Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-registry-fetch",
+          "homepage": "https://github.com/npm/registry-fetch#readme",
+          "repository": "https://github.com/npm/registry-fetch",
+          "bugs": "https://github.com/npm/registry-fetch/issues"
+        },
+        "author": {
+          "name": "Kat Marchán",
+          "email": "kzm@sykosomatic.org"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7888229047253028,
+        "detail": {
+          "quality": 0.9757719603043492,
+          "popularity": 0.41745294701342833,
+          "maintenance": 0.9999508147979946
+        }
+      },
+      "searchScore": 12.7271185,
+      "highlight": "<em>npm</em>-registry-fetch"
+    },
+    {
+      "package": {
+        "name": "npm-run",
+        "scope": "unscoped",
+        "version": "5.0.1",
+        "description": "Run executables for locally-installed packages without using ./node_modules/.bin",
+        "keywords": [
+          "npm",
+          "path",
+          "executable",
+          ".bin",
+          "run"
+        ],
+        "date": "2018-04-12T01:33:32.497Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-run",
+          "homepage": "https://github.com/timoxley/npm-run",
+          "repository": "https://github.com/timoxley/npm-run",
+          "bugs": "https://github.com/timoxley/npm-run/issues"
+        },
+        "author": {
+          "name": "Tim Oxley"
+        },
+        "publisher": {
+          "username": "timoxley",
+          "email": "secoif@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "timoxley",
+            "email": "secoif@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7387465665655223,
+        "detail": {
+          "quality": 0.9647859246138903,
+          "popularity": 0.28388820424609235,
+          "maintenance": 0.9998569077006368
+        }
+      },
+      "searchScore": 12.70064,
+      "highlight": "<em>npm</em>-run"
+    },
+    {
+      "package": {
+        "name": "npm-pick-manifest",
+        "scope": "unscoped",
+        "version": "6.0.0",
+        "description": "Resolves a matching manifest from a package metadata document according to standard npm semver resolution rules.",
+        "keywords": [
+          "npm",
+          "semver",
+          "package manager"
+        ],
+        "date": "2020-02-18T01:48:51.221Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-pick-manifest",
+          "homepage": "https://github.com/npm/npm-pick-manifest#readme",
+          "repository": "https://github.com/npm/npm-pick-manifest",
+          "bugs": "https://github.com/npm/npm-pick-manifest/issues"
+        },
+        "author": {
+          "name": "Kat Marchán",
+          "email": "kzm@sykosomatic.org"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7789693371955215,
+        "detail": {
+          "quality": 0.9653797492878206,
+          "popularity": 0.3982430038325814,
+          "maintenance": 0.9999153173364914
+        }
+      },
+      "searchScore": 12.596649,
+      "highlight": "<em>npm</em>-pick-manifest"
+    },
+    {
+      "package": {
+        "name": "npm-name",
+        "scope": "unscoped",
+        "version": "6.0.0",
+        "description": "Check whether a package or organization name is available on npm",
+        "keywords": [
+          "name",
+          "available",
+          "package",
+          "organization",
+          "npm",
+          "pkg",
+          "app",
+          "check",
+          "taken"
+        ],
+        "date": "2020-02-22T14:38:43.315Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-name",
+          "homepage": "https://github.com/sindresorhus/npm-name#readme",
+          "repository": "https://github.com/sindresorhus/npm-name",
+          "bugs": "https://github.com/sindresorhus/npm-name/issues"
+        },
+        "author": {
+          "name": "Sindre Sorhus",
+          "email": "sindresorhus@gmail.com",
+          "url": "https://sindresorhus.com",
+          "username": "sindresorhus"
+        },
+        "publisher": {
+          "username": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "sindresorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7153363947196598,
+        "detail": {
+          "quality": 0.9189560143434387,
+          "popularity": 0.2562520375138999,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 12.319211,
+      "highlight": "<em>npm</em>-name"
+    },
+    {
+      "package": {
+        "name": "npm-logical-tree",
+        "scope": "unscoped",
+        "version": "1.2.1",
+        "description": "Calculate 'logical' trees from a package.json + package-lock",
+        "keywords": [
+          "npm",
+          "package manager"
+        ],
+        "date": "2018-01-19T02:46:59.579Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-logical-tree",
+          "homepage": "https://github.com/npm/logical-tree#readme",
+          "repository": "https://github.com/npm/logical-tree",
+          "bugs": "https://github.com/npm/logical-tree/issues"
+        },
+        "author": {
+          "name": "Kat Marchán",
+          "email": "kzm@sykosomatic.org",
+          "username": "zkat"
+        },
+        "publisher": {
+          "username": "zkat",
+          "email": "kzm@sykosomatic.org"
+        },
+        "maintainers": [
+          {
+            "username": "zkat",
+            "email": "kzm@sykosomatic.org"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7577858458455913,
+        "detail": {
+          "quality": 0.9987070599143008,
+          "popularity": 0.3092108862173661,
+          "maintenance": 0.9998569077006368
+        }
+      },
+      "searchScore": 12.283402,
+      "highlight": "<em>npm</em>-logical-tree"
+    },
+    {
+      "package": {
+        "name": "npm-user-validate",
+        "scope": "unscoped",
+        "version": "1.0.0",
+        "description": "User validations for npm",
+        "keywords": [
+          "npm",
+          "validation",
+          "registry"
+        ],
+        "date": "2017-04-21T01:52:27.353Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-user-validate",
+          "homepage": "https://github.com/npm/npm-user-validate#readme",
+          "repository": "https://github.com/npm/npm-user-validate",
+          "bugs": "https://github.com/npm/npm-user-validate/issues"
+        },
+        "author": {
+          "name": "Robert Kowalski",
+          "email": "rok@kowalski.gd"
+        },
+        "publisher": {
+          "username": "iarna",
+          "email": "me@re-becca.org"
+        },
+        "maintainers": [
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7574039739720437,
+        "detail": {
+          "quality": 0.9819761520753953,
+          "popularity": 0.32243190779360587,
+          "maintenance": 0.9998856017761805
+        }
+      },
+      "searchScore": 12.247918,
+      "highlight": "<em>npm</em>-user-validate"
+    },
+    {
+      "package": {
+        "name": "npm-which",
+        "scope": "unscoped",
+        "version": "3.0.1",
+        "description": "Locate a program or locally installed node module's executable",
+        "keywords": [
+          "npm",
+          "path",
+          "executable",
+          "run"
+        ],
+        "date": "2016-07-22T06:57:28.075Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-which",
+          "homepage": "https://github.com/timoxley/npm-which",
+          "repository": "https://github.com/timoxley/npm-which",
+          "bugs": "https://github.com/timoxley/npm-which/issues"
+        },
+        "author": {
+          "name": "Tim Oxley"
+        },
+        "publisher": {
+          "username": "timoxley",
+          "email": "secoif@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "timoxley",
+            "email": "secoif@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7167929111171685,
+        "detail": {
+          "quality": 0.8647240420866901,
+          "popularity": 0.3068980605839949,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 12.234345,
+      "highlight": "<em>npm</em>-which"
+    },
+    {
+      "package": {
+        "name": "npm-keyword",
+        "scope": "unscoped",
+        "version": "6.1.0",
+        "description": "Get a list of npm packages with a certain keyword",
+        "keywords": [
+          "npm",
+          "keyword",
+          "package",
+          "packages",
+          "pkg",
+          "registry",
+          "find",
+          "search"
+        ],
+        "date": "2019-04-05T22:35:04.150Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-keyword",
+          "homepage": "https://github.com/sindresorhus/npm-keyword#readme",
+          "repository": "https://github.com/sindresorhus/npm-keyword",
+          "bugs": "https://github.com/sindresorhus/npm-keyword/issues"
+        },
+        "author": {
+          "name": "Sindre Sorhus",
+          "email": "sindresorhus@gmail.com",
+          "url": "sindresorhus.com",
+          "username": "sindresorhus"
+        },
+        "publisher": {
+          "username": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "sindresorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7165453214085338,
+        "detail": {
+          "quality": 0.9452092495157112,
+          "popularity": 0.2372033407630208,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 12.15265,
+      "highlight": "<em>npm</em>-keyword"
+    },
+    {
+      "package": {
+        "name": "npm-prefix",
+        "scope": "unscoped",
+        "version": "1.2.0",
+        "description": "Get global npm prefix. Respects npmrc configs",
+        "keywords": [
+          "bin",
+          "config",
+          "global",
+          "lib",
+          "node_modules",
+          "npm",
+          "npmrc",
+          "path",
+          "prefix",
+          "require",
+          "resolve",
+          "root"
+        ],
+        "date": "2016-02-23T21:18:26.209Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-prefix",
+          "homepage": "https://github.com/eush77/npm-prefix",
+          "repository": "https://github.com/eush77/npm-prefix",
+          "bugs": "https://github.com/eush77/npm-prefix/issues"
+        },
+        "author": {
+          "name": "Eugene Sharygin",
+          "email": "eush77@gmail.com",
+          "username": "eush77"
+        },
+        "publisher": {
+          "username": "eush77",
+          "email": "eush77@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "eush77",
+            "email": "eush77@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7007366604697802,
+        "detail": {
+          "quality": 0.9415438043048937,
+          "popularity": 0.19517754826156852,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 11.921163,
+      "highlight": "<em>npm</em>-prefix"
+    },
+    {
+      "package": {
+        "name": "npm-api",
+        "scope": "unscoped",
+        "version": "1.0.0",
+        "description": "Base class for retrieving data from the npm registry.",
+        "keywords": [
+          "api",
+          "base",
+          "downloads",
+          "maintainer",
+          "maintainers",
+          "npm",
+          "npm-api",
+          "package",
+          "repo",
+          "repos",
+          "repositories",
+          "repository"
+        ],
+        "date": "2019-06-18T02:08:07.929Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-api",
+          "homepage": "https://github.com/doowb/npm-api",
+          "repository": "https://github.com/doowb/npm-api",
+          "bugs": "https://github.com/doowb/npm-api/issues"
+        },
+        "author": {
+          "name": "Brian Woodward",
+          "url": "https://github.com/doowb"
+        },
+        "publisher": {
+          "username": "doowb",
+          "email": "brian.woodward@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "doowb",
+            "email": "brian.woodward@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6908081088820915,
+        "detail": {
+          "quality": 0.9691395703857378,
+          "popularity": 0.14315674422744856,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 11.876475,
+      "highlight": "<em>npm</em>-api"
+    },
+    {
+      "package": {
+        "name": "npm-path",
+        "scope": "unscoped",
+        "version": "2.0.4",
+        "description": "Get a PATH with all executables available to npm scripts.",
+        "keywords": [
+          "npm",
+          "run",
+          "executable"
+        ],
+        "date": "2018-01-06T09:02:26.237Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-path",
+          "homepage": "https://github.com/timoxley/npm-path",
+          "repository": "https://github.com/timoxley/npm-path",
+          "bugs": "https://github.com/timoxley/npm-path/issues"
+        },
+        "author": {
+          "name": "Tim Oxley"
+        },
+        "publisher": {
+          "username": "timoxley",
+          "email": "secoif@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "timoxley",
+            "email": "secoif@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6924755510712857,
+        "detail": {
+          "quality": 0.8243781662103332,
+          "popularity": 0.2720020683469217,
+          "maintenance": 0.9998896493907521
+        }
+      },
+      "searchScore": 11.8607,
+      "highlight": "<em>npm</em>-path"
+    },
+    {
+      "package": {
+        "name": "npm-install-package",
+        "scope": "unscoped",
+        "version": "2.1.0",
+        "description": "Install an npm package",
+        "keywords": [
+          "npm",
+          "install",
+          "package",
+          "local",
+          "exec"
+        ],
+        "date": "2016-12-22T13:38:04.116Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-install-package",
+          "homepage": "https://github.com/yoshuawuyts/npm-install-package#readme",
+          "repository": "https://github.com/yoshuawuyts/npm-install-package",
+          "bugs": "https://github.com/yoshuawuyts/npm-install-package/issues"
+        },
+        "publisher": {
+          "username": "yoshuawuyts",
+          "email": "i@yoshuawuyts.com"
+        },
+        "maintainers": [
+          {
+            "username": "rolfkoenders",
+            "email": "rolfkoenders@gmail.com"
+          },
+          {
+            "username": "yoshuawuyts",
+            "email": "i@yoshuawuyts.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.7354283813250717,
+        "detail": {
+          "quality": 0.9691395703857378,
+          "popularity": 0.2706759786117926,
+          "maintenance": 0.9998569077006368
+        }
+      },
+      "searchScore": 11.840123,
+      "highlight": "<em>npm</em>-install-package"
+    },
+    {
+      "package": {
+        "name": "npm-paths",
+        "scope": "unscoped",
+        "version": "2.0.0",
+        "description": "Returns an array of NPM directory paths based on the user's platform and environment.",
+        "keywords": [
+          "directory",
+          "dirname",
+          "global",
+          "module",
+          "npm",
+          "package",
+          "path",
+          "paths",
+          "prefix",
+          "resolve"
+        ],
+        "date": "2018-12-15T06:43:28.213Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-paths",
+          "homepage": "https://github.com/jonschlinkert/npm-paths",
+          "repository": "https://github.com/jonschlinkert/npm-paths",
+          "bugs": "https://github.com/jonschlinkert/npm-paths/issues"
+        },
+        "author": {
+          "name": "Jon Schlinkert",
+          "url": "https://github.com/jonschlinkert"
+        },
+        "publisher": {
+          "username": "jonschlinkert",
+          "email": "github@sellside.com"
+        },
+        "maintainers": [
+          {
+            "username": "jonschlinkert",
+            "email": "github@sellside.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6831871986459959,
+        "detail": {
+          "quality": 0.9079673986309708,
+          "popularity": 0.1737668245636504,
+          "maintenance": 0.9999388298840772
+        }
+      },
+      "searchScore": 11.660757,
+      "highlight": "<em>npm</em>-paths"
+    },
+    {
+      "package": {
+        "name": "npm-gui",
+        "scope": "unscoped",
+        "version": "2.1.0",
+        "description": "Graphical tool for managing javascript project dependencies - in a friendly way.",
+        "keywords": [
+          "gui",
+          "npm",
+          "yarn",
+          "bower",
+          "view",
+          "client",
+          "dependencies",
+          "packages",
+          "installer",
+          "console"
+        ],
+        "date": "2019-05-19T20:36:16.471Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-gui",
+          "homepage": "https://github.com/q-nick/npm-gui#readme",
+          "repository": "https://github.com/q-nick/npm-gui",
+          "bugs": "https://github.com/q-nick/npm-gui/issues"
+        },
+        "author": {
+          "name": "Paweł Stefański"
+        },
+        "publisher": {
+          "username": "q-nick",
+          "email": "qnick.mail@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "q-nick",
+            "email": "qnick.mail@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6747981536786238,
+        "detail": {
+          "quality": 0.9238953758554245,
+          "popularity": 0.13622749493363884,
+          "maintenance": 0.9998569077006368
+        }
+      },
+      "searchScore": 11.60123,
+      "highlight": "<em>npm</em>-gui"
+    },
+    {
+      "package": {
+        "name": "npm-install-checks",
+        "scope": "unscoped",
+        "version": "4.0.0",
+        "description": "Check the engines and platform fields in package.json",
+        "keywords": [
+          "npm,",
+          "install"
+        ],
+        "date": "2020-02-05T07:43:22.153Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-install-checks",
+          "homepage": "https://github.com/npm/npm-install-checks#readme",
+          "repository": "https://github.com/npm/npm-install-checks",
+          "bugs": "https://github.com/npm/npm-install-checks/issues"
+        },
+        "publisher": {
+          "username": "isaacs",
+          "email": "i@izs.me"
+        },
+        "maintainers": [
+          {
+            "username": "adam_baldwin",
+            "email": "evilpacket@gmail.com"
+          },
+          {
+            "username": "ahmadnassri",
+            "email": "ahmad@ahmadnassri.com"
+          },
+          {
+            "username": "claudiahdz",
+            "email": "cghr1990@gmail.com"
+          },
+          {
+            "username": "darcyclarke",
+            "email": "darcy@darcyclarke.me"
+          },
+          {
+            "username": "isaacs",
+            "email": "i@izs.me"
+          },
+          {
+            "username": "mikemimik",
+            "email": "mike@mikecorp.ca"
+          },
+          {
+            "username": "ruyadorno",
+            "email": "ruyadorno@hotmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.713865120909577,
+        "detail": {
+          "quality": 0.8632502165301934,
+          "popularity": 0.2997482073220995,
+          "maintenance": 0.9999376668222404
+        }
+      },
+      "searchScore": 11.517726,
+      "highlight": "<em>npm</em>-install-checks"
+    },
+    {
+      "package": {
+        "name": "npm-user",
+        "scope": "unscoped",
+        "version": "4.1.1",
+        "description": "Get user info of an npm user",
+        "keywords": [
+          "npm",
+          "user",
+          "username",
+          "homepage",
+          "email",
+          "get",
+          "website",
+          "scrape",
+          "info",
+          "profile"
+        ],
+        "date": "2019-07-04T16:37:44.775Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-user",
+          "homepage": "https://github.com/sindresorhus/npm-user#readme",
+          "repository": "https://github.com/sindresorhus/npm-user",
+          "bugs": "https://github.com/sindresorhus/npm-user/issues"
+        },
+        "author": {
+          "name": "Sindre Sorhus",
+          "email": "sindresorhus@gmail.com",
+          "url": "sindresorhus.com",
+          "username": "sindresorhus"
+        },
+        "publisher": {
+          "username": "sindresorhus",
+          "email": "sindresorhus@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "sindresorhus",
+            "email": "sindresorhus@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6697958958520165,
+        "detail": {
+          "quality": 0.9452092495157112,
+          "popularity": 0.10358500897526272,
+          "maintenance": 0.9999381938741747
+        }
+      },
+      "searchScore": 11.472242,
+      "highlight": "<em>npm</em>-user"
+    },
+    {
+      "package": {
+        "name": "npm-git-info",
+        "scope": "unscoped",
+        "version": "1.0.3",
+        "description": "Retrieves git information from package that installed as NPM package.",
+        "keywords": [
+          "npm",
+          "package.json"
+        ],
+        "date": "2016-04-06T17:11:03.702Z",
+        "links": {
+          "npm": "https://www.npmjs.com/package/npm-git-info",
+          "homepage": "https://github.com/tricknotes/npm-git-info#readme",
+          "repository": "https://github.com/tricknotes/npm-git-info",
+          "bugs": "https://github.com/tricknotes/npm-git-info/issues"
+        },
+        "author": {
+          "name": "Ryunosuke SATO"
+        },
+        "publisher": {
+          "username": "tricknotes",
+          "email": "tricknotes.rs@gmail.com"
+        },
+        "maintainers": [
+          {
+            "username": "tricknotes",
+            "email": "tricknotes.rs@gmail.com"
+          }
+        ]
+      },
+      "score": {
+        "final": 0.6992978136997166,
+        "detail": {
+          "quality": 0.9547047291947316,
+          "popularity": 0.17973658423391436,
+          "maintenance": 0.9999388298840772
+        }
+      },
+      "searchScore": 11.460822,
+      "highlight": "<em>npm</em>-git-info"
+    }
+  ]
