@@ -2,6 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  .autocomplete-input-box {
+    border: 1px solid rgba(0, 0, 0, 0.07);
+    border-radius: 10px;
+    background: transparent;
+    -webkit-box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    max-width: 700px;
+    min-width: 550px;
+  }
   .autocomplete-input {
     font-size: 1.4rem;
     font-family: Consolas, Courier, monospace;
@@ -44,6 +53,7 @@
         overflow: auto;
         z-index: 10;
         max-height: 35vh;
+        min-width: 548px;
         width: 100%;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         .suggestion-description {
