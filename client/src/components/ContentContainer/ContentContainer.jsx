@@ -7,8 +7,9 @@ import "./contentcontainer.style.scss"
 const ContentContainer = ({ dataInfo, data }) => (
   <div className="content-container">
     <div>
-      {dataInfo.map(item => (
+      {dataInfo.map((item, i) => (
         <SizeContainer
+          key={i}
           title={item.title}
           label={item.label}
           unit={item.unit}

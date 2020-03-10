@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react"
 import productService from "./services/productService"
 import ContentContainer from "./components/ContentContainer/ContentContainer"
 import Search from "./components/Search/Search"
-import * as data from "./services/mockedData/sizes.json"
+import { data } from "./services/mockedData/sizes"
 const dataInfo = [
   { title: "bundle size", label: "minified", unit: "kb", text: 900 },
   { title: "download time", label: "edge", unit: "s", text: 15 },

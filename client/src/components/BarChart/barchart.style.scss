@@ -2,10 +2,28 @@
   margin: 5vh 0;
   align-items: center;
   width: 300px;
-  .bar-chart {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-    height: 48vh;
+
+  .rect1 {
+    fill: #65c3f8;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+  }
+  .rect2 {
+    background: #65a1f8;
+    pointer-events: none;
+    border-radius: 0 0 5px 5px;
+  }
+  line {
+    visibility: hidden;
+  }
+
+  .tick {
+    text {
+      font-size: 0.8rem;
+      font-weight: 400;
+      color: #8d949e;
+      cursor: pointer;
+      transform: rotate(90);
+    }
   }
 }

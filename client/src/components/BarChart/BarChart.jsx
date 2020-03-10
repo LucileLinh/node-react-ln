@@ -1,12 +1,15 @@
-import React from "react"
+import React, { useEffect } from "react"
 import "./barchart.style.scss"
+import { drawBarChart } from "./barChartGenerator"
 
 export default function BarChart({ data }) {
+  useEffect(() => {
+    drawBarChart(data)
+  })
+
   return (
     <div className="chart-container">
-      <p>BarChart</p>
-      <p>{JSON.stringify(data)}</p>
-      <svg height="600px" width="300px"></svg>
+      <svg className="chart" height="600px" width="500px"></svg>
     </div>
   )
 }
