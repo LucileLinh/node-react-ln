@@ -26,4 +26,39 @@
       transform: rotate(90);
     }
   }
+
+  .legend {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-evenly;
+    color: #8d949e;
+    width: 500px;
+    .bar1 {
+      display: flex;
+      flex-direction: row;
+      .colorbox {
+        display: flex;
+        flex-direction: row;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        border-radius: 3px;
+        background: #65c3f8;
+      }
+    }
+    .bar2 {
+      display: flex;
+      flex-direction: row;
+      .colorbox {
+        display: flex;
+        flex-direction: row;
+        width: 15px;
+        height: 15px;
+        margin-right: 10px;
+        border-radius: 3px;
+        background: #65a1f8;
+      }
+    }
+  }
 }
