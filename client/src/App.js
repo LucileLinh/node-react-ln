@@ -1,6 +1,12 @@
 import React, { useState, useEffect } from "react"
 import productService from "./services/productService"
-import Search from "./components/Search/search"
+import ContentContainer from "./components/ContentContainer/ContentContainer"
+import Search from "./components/Search/Search"
+import * as data from "./services/mockedData/sizes.json"
+const dataInfo = [
+  { title: "bundle size", label: "minified", unit: "kb", text: 900 },
+  { title: "download time", label: "edge", unit: "s", text: 15 },
+]
 
 function App() {
   const [products, setproducts] = useState(null)
@@ -28,15 +34,18 @@ function App() {
 
   return (
     <div className="App">
-      <p>abc</p>
-      <Search />
-      <ul className="list">
-        {products && products.length > 0 ? (
-          products.map(product => renderProduct(product))
-        ) : (
-          <p>No products found</p>
-        )}
-      </ul>
+      <div className="page-container">
+        <p>abc</p>
+        <Search />
+        <ContentContainer dataInfo={dataInfo} data={data} />
+      </div>
+      {/* <ul>
+          {products && products.length > 0 ? (
+            products.map(product => renderProduct(product))
+          ) : (
+            <p>No products found</p>
+          )}
+        </ul> */}
     </div>
   )
 }

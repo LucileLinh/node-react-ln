@@ -1,0 +1,115 @@
+[
+  {
+    "version": "6.11.2",
+    "size": 1362273,
+    "gzip": 459795,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.11.3",
+    "size": 1362359,
+    "gzip": 459814,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.12.0",
+    "size": 1367408,
+    "gzip": 459842,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.12.1",
+    "size": 1368021,
+    "gzip": 459595,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.0",
+    "size": 1379247,
+    "gzip": 461520,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.1",
+    "size": 1381535,
+    "gzip": 462000,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.2",
+    "size": 1381848,
+    "gzip": 462116,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.3",
+    "size": 1382479,
+    "gzip": 462278,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.4",
+    "size": 1384224,
+    "gzip": 462286,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  { "version": "6.13.5", "disabled": true },
+  {
+    "version": "6.13.6",
+    "size": 1387033,
+    "gzip": 463103,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.13.7",
+    "size": 1387257,
+    "gzip": 463243,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.14.0",
+    "size": 1387970,
+    "gzip": 465122,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.14.1",
+    "size": 1388038,
+    "gzip": 465150,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  },
+  {
+    "version": "6.14.2",
+    "size": 1388036,
+    "gzip": 465151,
+    "hasSideEffects": true,
+    "hasJSModule": false,
+    "hasJSNext": false
+  }
+]

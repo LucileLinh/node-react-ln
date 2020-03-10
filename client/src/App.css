@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 6px);
+}
