@@ -3,12 +3,16 @@ import InfoBox from "../InfoBox/InfoBox"
 
 import "./sizecontainer.style.scss"
 
-const SizeContainer = ({ title, label, text, unit }) => (
+const SizeContainer = ({ moduleInfo }) => (
   <div className="size-container">
-    <h3>{title}</h3>
+    <h3>Bundle size</h3>
     <div className="stats-container">
-      <InfoBox label={label} unit={unit} text={text}></InfoBox>
-      <InfoBox label={label} unit={unit} text={text}></InfoBox>
+      <InfoBox label="MINIFIED" unit="B" text={moduleInfo.size}></InfoBox>
+      <InfoBox
+        label="MINIFIED + GZIPPED"
+        unit="B"
+        text={moduleInfo.gzip}
+      ></InfoBox>
     </div>
   </div>
 )

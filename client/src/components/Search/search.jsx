@@ -1,38 +1,30 @@
 import React, { useState, useEffect } from "react"
-import axios from "axios"
+import productService from "../../services/productService"
 
-export default function Search() {
+export default function Search({ onSelect }) {
   const [searchTerm, setSearchTerm] = useState("")
-  const [data, setData] = useState({})
-  // const [filtered, setFiltered] = useState([])
-  const [result, setResult] = useState({})
+  const [moduleList, setModuleList] = useState([])
 
   useEffect(() => {
     const fetchData = async keyword => {
-      try {
-        const res = await axios.get(
-          `https://api.npms.io/v2/search/suggestions?q=${keyword}`,
-        )
-        console.log(res.data)
-        setData(res.data)
-        // setFiltered(res.data)
-      } catch (err) {
-        throw new Error(err)
-      }
+      const data = await productService.getAllModules(keyword)
+      setModuleList(data)
     }
-    if (searchTerm.length > 0) fetchData(searchTerm)
+    if (searchTerm.length > 0) {
+      fetchData(searchTerm)
+    }
   }, [searchTerm])
-
-  // useEffect(() => {
-  //   const results = filtered.filter(res =>
-  //     res.package.name.toLowerCase().includes(result),
-  //   )
-  //   setData(results)
-  // }, [result, filtered])
-  //console.log(data)
 
   const onChange = e => {
     setSearchTerm(e.target.value)
+    if (!e.target.value && moduleList.length > 0) {
+      setModuleList([])
+    }
+  }
+
+  const onModuleSelect = r => {
+    setModuleList([])
+    onSelect(r.package.name)
   }
 
   return (
@@ -62,11 +54,6 @@ export default function Search() {
                 onChange={onChange}
               />
             </div>
-            <div class="autocomplete-input__dummy-input">
-              <span class="dummy-input__package-name">npm</span>
-              <span class="dummy-input__at-separator">@</span>
-              <span class="dummy-input__package-version">6.14.2</span>
-            </div>
           </div>
           <div className="search-icon">
             <svg
@@ -81,19 +68,22 @@ export default function Search() {
         </div>
 
         <div className="suggestions-menu">
-          {data.length > 0 &&
-            data.map((r, i) => (
-              //   <div class="suggestion" key={i}>
-              //   <div>
-              //     <em>{r.package.name}</em>
-              //   </div>
-              //   <div class="suggestion-description">
-              //     {r.package.description}
-              //   </div>
-              // </div>
-              <ul key={i}>
-                <li onClick={r => setResult(r)}>{r.package.name}</li>
-              </ul>
+          {moduleList.length > 0 &&
+            moduleList.map((m, i) => (
+              <div
+                key={i}
+                className="suggestion"
+                onClick={() => {
+                  onModuleSelect(m)
+                }}
+              >
+                <div>
+                  <em>{m.package.name}</em>
+                  <div className="suggestion-description">
+                    {m.package.description}
+                  </div>
+                </div>
+              </div>
             ))}
         </div>
       </div>

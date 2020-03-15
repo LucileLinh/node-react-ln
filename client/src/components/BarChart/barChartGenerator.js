@@ -10,6 +10,7 @@ const margin = { top: 20, right: 20, bottom: 70, left: 40 },
   height = 500
 
 export const drawBarChart = items => {
+  console.log(items)
   const x = scaleBand()
     .domain(range(items.length))
     .range([margin.left, width - margin.right])

@@ -4,20 +4,17 @@ import BarChart from "../BarChart/BarChart"
 
 import "./contentcontainer.style.scss"
 
-const ContentContainer = ({ dataInfo, data }) => (
+const ContentContainer = ({ moduleInfo, moduleInfoList }) => (
   <div className="content-container">
     <div>
-      {dataInfo.map((item, i) => (
+      {moduleInfo && (
         <SizeContainer
-          key={i}
-          title={item.title}
-          label={item.label}
-          unit={item.unit}
-          text={item.text}
+          key={moduleInfo.version}
+          moduleInfo={moduleInfo}
         ></SizeContainer>
-      ))}
+      )}
     </div>
-    <BarChart data={data} />
+    {/* <BarChart data={moduleInfoList} /> */}
   </div>
 )
 

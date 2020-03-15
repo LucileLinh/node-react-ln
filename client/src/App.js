@@ -2,50 +2,34 @@ import React, { useState, useEffect } from "react"
 import productService from "./services/productService"
 import ContentContainer from "./components/ContentContainer/ContentContainer"
 import Search from "./components/Search/Search"
-import { data } from "./services/mockedData/sizes"
-const dataInfo = [
-  { title: "bundle size", label: "minified", unit: "kb", text: 900 },
-  { title: "download time", label: "edge", unit: "s", text: 15 },
-]
 
 function App() {
-  const [products, setproducts] = useState(null)
+  const [moduleInfoList, setModuleInfoList] = useState([])
+  const [selectedModule, setSelectedModule] = useState("")
+  const [moduleInfo, setModuleInfo] = useState(null)
 
   useEffect(() => {
-    if (!products) {
-      getProducts()
+    if (selectedModule) {
+      let res = productService.getModuleHistory(selectedModule)
+      setModuleInfoList(res)
+      setModuleInfo(res[0])
     }
-  })
+  }, [selectedModule, moduleInfo])
 
-  const getProducts = async () => {
-    let res = await productService.getAll()
-    console.log(res)
-    setproducts(res)
-  }
-
-  const renderProduct = product => {
-    return (
-      <li key={product._id} className="list__item product">
-        <h3 className="product__name">{product.name}</h3>
-        <p className="product__description">{product.description}</p>
-      </li>
-    )
+  const setModule = async moduleName => {
+    setSelectedModule(moduleName)
   }
 
   return (
     <div className="App">
       <div className="page-container">
-        <p>abc</p>
-        <Search />
-        <ContentContainer dataInfo={dataInfo} data={data} />
+        <Search onSelect={setModule} />
+        {moduleInfo}
+        <ContentContainer
+          moduleInfo={selectedModule}
+          moduleInfoList={moduleInfoList}
+        />
       </div>
-      {/* <ul>
-          {products && products.length > 0 ? (
-            products.map(product => renderProduct(product))
-          ) : (
-            <p>No products found</p>
-          )}
-        </ul> */}
     </div>
   )
 }
