@@ -17,17 +17,16 @@ function ModulePage() {
     fetch()
   }, [selectedModuleName])
 
-  const setModule = async moduleName => {
+  const setModule = moduleName => {
     setSelectedModuleName(moduleName)
   }
 
   return (
     <div className="page-container">
       <Search onSelect={setModule} />
-      <ContentContainer
-        moduleInfo={moduleInfoList[0]}
-        moduleInfoList={moduleInfoList}
-      />
+      {selectedModuleName && (
+        <ContentContainer moduleInfoList={moduleInfoList} />
+      )}
     </div>
   )
 }

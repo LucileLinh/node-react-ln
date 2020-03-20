@@ -4,17 +4,18 @@ import BarChart from "../BarChart/BarChart"
 
 import "./contentcontainer.style.scss"
 
-const ContentContainer = ({ moduleInfo, moduleInfoList }) => (
+const ContentContainer = ({ moduleInfoList }) => (
   <div className="content-container">
-    {moduleInfo && (
+    {(!moduleInfoList[0] || !moduleInfoList[0].version) && (
+      <p>Not enough detail found for this package</p>
+    )}
+    {moduleInfoList[0] && moduleInfoList[0].version && (
       <div>
         <SizeContainer
-          key={moduleInfo.version}
-          moduleInfo={moduleInfo}
+          key={!moduleInfoList[0].version}
+          moduleInfo={moduleInfoList[0]}
         ></SizeContainer>
-
-        {moduleInfoList.length > 0 && <BarChart data={moduleInfoList} />}
-        {!moduleInfoList.length && <p>No package info found</p>}
+        <BarChart data={moduleInfoList} />
       </div>
     )}
   </div>

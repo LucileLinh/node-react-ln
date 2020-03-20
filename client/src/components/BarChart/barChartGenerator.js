@@ -5,11 +5,14 @@ import { select } from "d3-selection"
 
 import "./barchart.style.scss"
 
-const margin = { top: 20, right: 20, bottom: 70, left: 40 },
+const margin = { top: 20, right: 20, bottom: 70, left: 0 },
   width = 400,
   height = 500
 
 export const drawBarChart = items => {
+  select(".chart")
+    .selectAll()
+    .remove()
   const x = scaleBand()
     .domain(range(items.length))
     .range([margin.left, width - margin.right])
@@ -27,7 +30,7 @@ export const drawBarChart = items => {
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(
         axisBottom(x)
-          .tickFormat((d, i) => items[i] && items[i].version)
+          .tickFormat((d, i) => items[i] && `v${items[i].version}`)
           .tickSizeOuter(0),
       )
       .call(g => g.select(".domain").remove())
@@ -44,11 +47,11 @@ export const drawBarChart = items => {
       .call(g =>
         g
           .append("text")
-          .attr("x", -margin.left)
+          .attr("x", 0)
           .attr("y", 10)
           .attr("fill", "#000")
           .attr("text-anchor", "start")
-          .text((d, i) => items[i].size),
+          .text((d, i) => items[i] && `lastest ${items[i].size} b`),
       )
 
   const svg = select("svg.chart")
@@ -65,8 +68,13 @@ export const drawBarChart = items => {
     .attr("ry", 3)
     .attr("height", d => (d ? y(0) - y(d.size) : y(0) - height / 3))
     .attr("width", x.bandwidth())
-    .on("mouseover", function() {})
-
+    .attr("title", d => (d ? d.size : ""))
+    .on("mouseover", function() {
+      select(this).attr("fill", "orange")
+    })
+    .on("mouseout", function() {
+      select(this).attr("fill", d => (d ? "#65C3F8" : "#cccccc"))
+    })
   svg
     .append("g")
 
@@ -80,7 +88,13 @@ export const drawBarChart = items => {
     .attr("ry", 3)
     .attr("height", d => (d ? y(0) - y(d.gzip) : 0))
     .attr("width", barWidth)
-    .on("mouseover", function() {})
+    .attr("title", d => (d ? `${d.gzip} b` : ""))
+    .on("mouseover", function() {
+      select(this).attr("fill", "orange")
+    })
+    .on("mouseout", function() {
+      select(this).attr("fill", "#65A1F8")
+    })
 
   svg.append("g").call(xAxis)
 
