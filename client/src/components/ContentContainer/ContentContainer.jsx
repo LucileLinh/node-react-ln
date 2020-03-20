@@ -14,7 +14,7 @@ const ContentContainer = ({ moduleInfo, moduleInfoList }) => (
         ></SizeContainer>
 
         {moduleInfoList.length > 0 && <BarChart data={moduleInfoList} />}
-        {moduleInfoList.length === 0 && <p>No info found</p>}
+        {!moduleInfoList.length && <p>No package info found</p>}
       </div>
     )}
   </div>

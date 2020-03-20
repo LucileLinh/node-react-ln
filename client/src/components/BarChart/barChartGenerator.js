@@ -13,7 +13,7 @@ export const drawBarChart = items => {
   const x = scaleBand()
     .domain(range(items.length))
     .range([margin.left, width - margin.right])
-    .padding(0.2)
+    .padding(0.3)
 
   const barWidth = x.bandwidth()
 
@@ -27,7 +27,7 @@ export const drawBarChart = items => {
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(
         axisBottom(x)
-          .tickFormat((d, i) => d && d.version)
+          .tickFormat((d, i) => items[i] && items[i].version)
           .tickSizeOuter(0),
       )
       .call(g => g.select(".domain").remove())

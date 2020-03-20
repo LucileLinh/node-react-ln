@@ -9,7 +9,7 @@ export default function BarChart({ data }) {
 
   return (
     <div className="chart-container">
-      <svg className="chart" height="600px" width="500px"></svg>
+      <svg className="chart" height="500px" width="400px"></svg>
       <div className="legend">
         <div className="bar1">
           <div className="colorbox"></div>

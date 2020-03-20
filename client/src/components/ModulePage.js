@@ -11,7 +11,6 @@ function ModulePage() {
     async function fetch() {
       if (selectedModuleName) {
         let res = await moduleService.getModuleHistory(selectedModuleName)
-        console.log("module", selectedModuleName, res)
         setModuleInfoList(res)
       }
     }
