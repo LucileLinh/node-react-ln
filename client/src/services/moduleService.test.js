@@ -1,7 +1,7 @@
-import { resToModuleInfoList } from "./productService"
+import { resToModuleInfoList } from "./moduleService"
 import { data } from "./services/mockedData/sizes"
 
-test("productService fn resTomoduleInfo()", () => {
+test("moduleService fn resTomoduleInfo()", () => {
   const res = resToModuleInfoList(data)
   expect(res.length).toBe(4)
 })

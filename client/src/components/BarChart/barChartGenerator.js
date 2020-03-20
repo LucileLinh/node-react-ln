@@ -6,28 +6,28 @@ import { select } from "d3-selection"
 import "./barchart.style.scss"
 
 const margin = { top: 20, right: 20, bottom: 70, left: 40 },
-  width = 800,
+  width = 400,
   height = 500
 
 export const drawBarChart = items => {
-  console.log(items)
   const x = scaleBand()
     .domain(range(items.length))
     .range([margin.left, width - margin.right])
     .padding(0.2)
 
+  const barWidth = x.bandwidth()
+
   const y = scaleLinear()
-    .domain([0, max(items, d => d.size)])
+    .domain([0, max(items, d => d && d.size)])
     .nice()
     .range([height - margin.bottom, margin.top])
 
-  const barWidth = x.bandwidth()
   const xAxis = g =>
     g
       .attr("transform", `translate(0,${height - margin.bottom})`)
       .call(
         axisBottom(x)
-          .tickFormat((d, i) => items[i].version)
+          .tickFormat((d, i) => d && d.version)
           .tickSizeOuter(0),
       )
       .call(g => g.select(".domain").remove())
@@ -48,36 +48,37 @@ export const drawBarChart = items => {
           .attr("y", 10)
           .attr("fill", "#000")
           .attr("text-anchor", "start")
-          .text(items.size),
+          .text((d, i) => items[i].size),
       )
 
   const svg = select("svg.chart")
 
   svg
     .append("g")
-    .attr("fill", "#65C3F8")
     .selectAll("rect")
     .data(items)
     .join("rect")
+    .attr("fill", d => (d ? "#65C3F8" : "#cccccc"))
     .attr("x", (d, i) => x(i))
-    .attr("y", d => y(d.size))
+    .attr("y", d => (d ? y(d.size) : height / 3))
     .attr("rx", 3)
     .attr("ry", 3)
-    .attr("height", d => y(0) - y(d.size))
+    .attr("height", d => (d ? y(0) - y(d.size) : y(0) - height / 3))
     .attr("width", x.bandwidth())
     .on("mouseover", function() {})
 
   svg
     .append("g")
-    .attr("fill", "#65A1F8")
+
     .selectAll("rect")
     .data(items)
     .join("rect")
+    .attr("fill", d => d && "#65A1F8")
     .attr("x", (d, i) => x(i))
-    .attr("y", d => y(d.gzip))
+    .attr("y", d => (d ? y(d.gzip) : 0))
     .attr("rx", 3)
     .attr("ry", 3)
-    .attr("height", d => y(0) - y(d.gzip))
+    .attr("height", d => (d ? y(0) - y(d.gzip) : 0))
     .attr("width", barWidth)
     .on("mouseover", function() {})
 

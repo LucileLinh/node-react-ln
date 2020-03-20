@@ -12,13 +12,11 @@ export default {
     }
   },
   getModuleHistory: async moduleName => {
-    try {
-      const res = await axios.get(
-        `http://cost-of-modules.herokuapp.com/api/package-history?package=${moduleName}`,
-      )
-      const allVersions = Object.values(res.data)
-      const majorVersion = allVersions[allVersions.length - 1].version.charAt(0)
-      if (allVersions[0].version) {
+    function getLastVersions(allVersions) {
+      if (allVersions[allVersions.length - 1].version) {
+        const majorVersion =
+          allVersions[allVersions.length - 1] &&
+          allVersions[allVersions.length - 1].version.charAt(0)
         const allMajors = allVersions.filter(
           v => v.version && v.version.match(new RegExp(`^${majorVersion}`)),
         )
@@ -31,6 +29,14 @@ export default {
         ]
       }
       return []
+    }
+
+    try {
+      const res = await axios.get(
+        `http://cost-of-modules.herokuapp.com/api/package-history?package=${moduleName}`,
+      )
+      const allVersions = Object.values(res.data)
+      return getLastVersions(allVersions)
     } catch (err) {
       throw new Error(err)
     }
